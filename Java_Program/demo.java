@@ -1,7 +1,19 @@
-package practice_java;
+package emc_java_tutorial;
 
 public class demo {
-   public static void main(String[] args) {
-	   System.out.println("Hello Hi");
-   }
+	
+	String myname;
+	
+	void setName(String myname) {
+		this.myname=myname;
+		
+	}
+
+	public static void main(String[] args) {
+		demo obj=new demo();
+		obj.setName("Sachin");
+		System.out.println(obj.myname);
+
+	}
+
 }
